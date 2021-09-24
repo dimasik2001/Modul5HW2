@@ -1,0 +1,25 @@
+form
+{
+    left: 50%;
+}
+table 
+{
+    font-size: 14px;
+    border-collapse: collapse;
+    border-style: groove;
+    text-align: center;
+    margin-top: 20px;
+}  
+td, th
+{
+    border-collapse: collapse;
+    border-style: groove;
+}
+tr:nth-child(3)
+{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+}
+tr:nth-child(2n)
+{
+    background-color: blue;
+}
